@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="navstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">    <link rel="stylesheet" href="navstyle.css">
     <link rel="icon" href="assets/BNlogo.png" />
   
     <title>Brulerie Nivesse</title>
@@ -19,21 +18,53 @@
         <ul>
           <li><a href="index.html">La Brulerie</a></li>
           <li><a href="valeurs.html">Nos Valeurs</a></li>
-          <li><a href="passions.html">Nos passions</a></li>
+          <li><a href="produits.html">Nos produits</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </header>
   
       <section id="About">
         <h1>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/watch?v=6uddGul0oAc"
-            >Bienvenue à la Brulerie Nivesse</label></a>
+          Bienvenue<br>à la Brulerie Nivesse
         </h1>
       </section>
+
+      <section id=Valeurs>
+        <h2>Nos Valeurs</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nam eos dicta fugit saepe excepturi neque fuga, quisquam ipsum sapiente quas a minima. Deleniti, laborum dolor amet quis repudiandae qui!</p>
+      </section>
+
+      <section id=photos>
+        <ul>
+          <li><img src="assets/coffeebag2.jpg" alt="Logo" class="logo"/></li>
+          <li><img src="assets/coffeefall.jpg" alt="Logo" class="logo"/></li>
+          <li><img src="assets/coffeesplash.jpg" alt="Logo" class="logo"/></li>
+        </ul>
+      </section>
   
-      
+      <section id=contact>
+        <h3>
+          Contactez-nous !
+        </h3>
+        <form
+        id="contactForm"
+        onsubmit="return alert('Votre message a été envoyé');"
+      >
+        <label for="name">First name:</label><br />
+        <input type="text" id="name" name="name" value="Your name" /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="bruno@nivesse.com"
+        /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea>
+        <br /><br />
+        <input type="submit" value="Envoyer" />
+      </form>
+      </section>
       <script src="script.js"></script>
     
 </body>
